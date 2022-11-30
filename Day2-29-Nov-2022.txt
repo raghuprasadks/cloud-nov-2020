@@ -1,0 +1,77 @@
+Cloud Computing Recap
+Cloud Computing Service providers
+1. AWS (Amazon Web Service)
+2. Microsoft - Azure
+3. Google Cloud 
+4. Alibaba
+5. Sales Force - Heroku
+
+Deployment Model
+
+1. Public
+2. Private
+3. Hybrid
+
+Service Model
+1. Infrastructure As A Service (IAAS)
+2. Platform As A Service (PAAS)
+3. Software As A Service (SAAS)
+
+Web Application
+HTML,CSS,Java Script
+GIT
+Web Service
+
+HTML (Hyper Text Markup Language)
+1. Sublime Text
+
+https://www.sublimetext.com/download
+
+CSS - Cascading Style Sheet
+
+
+index.html
+About Us
+Image Gallery
+Videos
+Contact Us
+
+Web Server
+
+XAMPP
+
+Apache
+MY-SQL Server
+
+download xampp
+
+https://www.apachefriends.org/download.html
+8.1.12 / PHP 8.1.12
+
+HTTP - Hyper Text Transfer Protocol
+HTTPS - Hyper Text Transfer Protocol Secure
+
+http://localhost/
+
+localhost
+
+Website
+
+Domain -https://www.sindhicollege.com/
+godday - in.godaddy.com
+DNS - Domain Name Server
+Step 1 - Develop Web site
+Step 2 - Deploy /Host on a Web Server
+Apache Server
+goto C:\xampp\htdocs
+create demowebsite folder
+copy the content of web folder to demowebsite folder
+
+http://localhost/demowebsite/
+
+Step 3 - Deploy /Host on a cloud server
+
+
+
+
+
