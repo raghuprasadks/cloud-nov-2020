@@ -1,0 +1,38 @@
+Recap:
+CSS:
+3 ways to styling
+
+1. Inline
+<h1 style="color:red;text-align:center">this is h1</h1>
+2. Internal
+
+<head>
+<style>
+h1{
+color:red;
+text-align:center
+}
+</style>
+</head>
+
+id
+class
+
+#
+3. External
+
+
+git: - free version control version
+
+Managing source code,documents, assests
+
+kaushalya technical training
+
+https://github.com/raghuprasadks
+
+
+block level elements - h1,h6,p,div,ul,li
+in-line elements - a,img
+
+
+ 
