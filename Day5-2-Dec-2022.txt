@@ -1,0 +1,60 @@
+Agenda
+1. Git commands
+2. Deploying static web application on the git
+3. Setting up of AWS account
+download git
+create account in github.com
+
+git commands:
+
+1. Create a new repository in github.com by
+loggining in and clicking on + button
+2. Give repository name as demo.sindhi.edu
+3. Click on create repository
+
+echo "# demo.sindhi.edu" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/raghuprasadks/demo.sindhi.edu.git
+git push -u origin main
+
+
+4. create  a folder sindhiwebsite
+5. create index.html inside sindhiwebsite
+Welcome  to Sindhi College
+
+6. type cmd in address bar of sindhiwebsite
+
+7. git init
+8. git status
+9. git add index.html
+10. git commit -m "first commit"
+11.git branch -M main
+12. git remote add origin https://github.com/raghuprasadks/demo.sindhi.edu.git
+13. git push -u origin main
+
+https://raghuprasadks.github.io/demo.sindhi.edu
+
+
+github html website project
+
+https://github.com/bradtraversy/50projects50days
+
+https://github.com/bradtraversy/50projects50days.git
+
+create samplewebsite folder
+cmd
+
+git clone https://github.com/bradtraversy/50projects50days.git
+
+
+
+
+every change or adding new file following commands to be executed
+
+git status
+git add .
+git commit -m "updated"
+git push -u origin main

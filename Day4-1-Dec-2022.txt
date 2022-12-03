@@ -31,6 +31,50 @@ kaushalya technical training
 https://github.com/raghuprasadks
 
 
+1. download git
+https://git-scm.com/downloads
+2. create an account in github
+https://github.com/
+
+login
+click plus button
+new repository
+give new reposity name as demogit
+
+3. register with aws
+https://aws.amazon.com/
+
+echo "# demogitnew" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/raghuprasadks/demogitnew.git
+git push -u origin main
+
+source code repository
+
+
+create gitdemo folder in your file system
+
+type cmd
+
+1. git init
+2. git add .
+3. git commit -m "first commit"
+
+local git
+remote git
+
+
+
+
+
+
+
+
+
+
 block level elements - h1,h6,p,div,ul,li
 in-line elements - a,img
 
