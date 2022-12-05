@@ -28,7 +28,6 @@ https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteAccessPermissionsRe
 
 
 
-
 EC2 - Elastic Cloud Compute
 Set up servers
 Dynamo DB - No SQL Database
@@ -78,6 +77,5 @@ Step 5 - Under properties tab
 you will have the link to the website
 Bucket website endpoint
 
-
-
+https://github.com/raghuprasadks
 
