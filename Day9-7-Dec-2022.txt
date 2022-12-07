@@ -39,7 +39,48 @@ update customers set city='Mumbai',Address='SP College,
 Andheri' where CustomerID=100
 10. delete from customers where customerid = 100
 
+11. create a table corona
+statecode - number
+name - char
+total,active,recovered,death - number
+
+CREATE TABLE corona (
+    statecode int,
+    name varchar(255),
+    total int,
+    active int,
+    recovered int,
+    death int  
+);
+
+insert alleast 5 records of southern states of India
+
+insert into corona values (1,'karnataka',100000,10000,85000,5000)
 
 
+Steps on Mysql in XAMPP.
+1. open xampp
+2. start apache
+3. start mysql
+click on Admin
+to open phpmyadmin
 
+userid - root
+
+4. create database
+click Database
+name as democlouddb and click on create
+
+create table
+name : corona
+columns : 6 
+click go
+
+statecode int
+name varchar 100
+
+click on preview sql
+CREATE TABLE `democlouddb`.`corona` ( `statecode` INT NOT NULL , `name` VARCHAR(100) NOT NULL , `total` INT NOT NULL , `active` INT NOT NULL , `recovered` INT NOT NULL , `death` INT NOT NULL ) ENGINE = InnoDB;
+
+click on save to create corona table
 
