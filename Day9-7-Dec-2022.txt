@@ -64,13 +64,10 @@ Steps on Mysql in XAMPP.
 3. start mysql
 click on Admin
 to open phpmyadmin
-
 userid - root
-
 4. create database
 click Database
 name as democlouddb and click on create
-
 create table
 name : corona
 columns : 6 
@@ -84,3 +81,25 @@ CREATE TABLE `democlouddb`.`corona` ( `statecode` INT NOT NULL , `name` VARCHAR(
 
 click on save to create corona table
 
+Cloud database on AWS:
+1. Login to AWS
+
+2. search rds
+
+3. click create database
+
+Easy Create
+
+RDBMS
+Amazon Aurora,MySQL,MariaDB,PostgreSQL,Oracle,
+MS SQL server
+
+
+Select MySQL
+Free Tier
+cloudvapdec2022
+
+admin
+test1234
+
+create database 
