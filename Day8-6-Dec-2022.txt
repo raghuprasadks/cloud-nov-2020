@@ -1,0 +1,7 @@
+agenda:
+
+Created Server in EC2
+Installed XAMPP on the server
+Deployed static website on the server
+Viewed the static website by configuring static hosting
+in EC2

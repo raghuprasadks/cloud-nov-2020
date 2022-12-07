@@ -1,0 +1,80 @@
+Recap: AWS
+
+1. Sign up with AWS
+
+https://aws.amazon.com/
+Sign Into the Console button
+
+Create new AWS account
+
+2. Hosting static website using S3
+
+search for s3
+
+click on create bucket
+Give unique name for the bucket
+
+uncheck block all public access
+check I acknowledge
+
+click on create bucket
+
+3. Click on Object
+click on upload
+add files
+upload your website pages
+
+4. Click on properties
+Scroll at the end ,you can find static website hosting
+click on edit
+
+in index document mention index.html
+Enable and save changes
+
+5. click on permission tab
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteAccessPermissionsReqd.html
+
+click on edit bucket policy
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::Bucket-Name/*"
+            ]
+        }
+    ]
+}
+
+replace with your bucket-name
+
+
+6. click on properties
+move to the end of the page
+locate 
+Bucket website endpoint
+
+http://samplewebsitesc.s3-website.ap-south-1.amazonaws.com/
+click on the link to access your website
+
+https://github.com/raghuprasadks/cloud-nov-2020
+day7
+
+
+
+7- EC2 - Elastic Cloud Compute
+click instances new
+launch instance
+quick start - windows microsoft
+
+R;GvDq7vH!4HL%JoMU5ji&p3f%XY(XkV
+
+

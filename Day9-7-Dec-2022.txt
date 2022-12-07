@@ -1,0 +1,45 @@
+Recap:
+Created Server in EC2
+Installed XAMPP on the server
+Deployed static website on the server
+Viewed the static website by configuring static hosting
+in EC2
+
+Agenda:
+1. Introduction to SQL
+SQL - Structured Query Language
+Database - software to store and manage data is known
+as database
+CRUD - Create,Read,Update and Delete
+Search
+2. RDBMS - Relational Database Management System
+Database
+Tables
+Customer - id,name,mobile,email,address
+product - id,name,desc,manu,price
+order - orderid,orderdate,customerid,supplierid,totalamount
+orderdetails - orderid,orderdetailsid,productid,price,qty,amt
+
+3. SQL commands on My-SQL datatabase
+
+w3schools sql
+
+1. select * from customers
+2. SELECT * FROM Customers where country='Germany'
+3. select count(*) from Customers where country='Germany'
+4. select count(*) as customercount from Customers where country='Germany'
+5. select * from customers where country='Germany' and city='Berlin'
+6. select * from customers where country='Germany' or country='UK'
+7. select distinct country from Customers
+8. Insert a record into country table
+insert into customers values(100,'ravi','ravi','Sindhi College,Kempapura',
+'Bengaluru',5600077,'India')
+9. update city to mumbai for ravi
+update customers set city='Mumbai',Address='SP College,
+Andheri' where CustomerID=100
+10. delete from customers where customerid = 100
+
+
+
+
+

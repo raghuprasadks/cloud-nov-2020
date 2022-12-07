@@ -25,9 +25,6 @@ uncheck the option to allow access
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteAccessPermissionsReqd.html
 
-
-
-
 EC2 - Elastic Cloud Compute
 Set up servers
 Dynamo DB - No SQL Database
