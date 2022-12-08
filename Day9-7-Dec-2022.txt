@@ -83,23 +83,45 @@ click on save to create corona table
 
 Cloud database on AWS:
 1. Login to AWS
-
 2. search rds
-
 3. click create database
-
 Easy Create
-
 RDBMS
 Amazon Aurora,MySQL,MariaDB,PostgreSQL,Oracle,
 MS SQL server
-
-
 Select MySQL
 Free Tier
 cloudvapdec2022
 
+No SQL - Not only SQL
+
+Document Database - MongoDB
+
+JSON
+
+[
+{
+	"code":1,
+	"name":"Karnataka",	
+	"total":1000
+},
+{
+	"code":2,
+	"name":"Tamil Nadu",	
+	"total":1000
+}
+
+]
+
+
+structure for DB
+
+
+Redshift
 admin
 test1234
 
-create database 
+create nosql database 
+search dynamodb
+create table - corona
+key column - code 

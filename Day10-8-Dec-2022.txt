@@ -1,0 +1,79 @@
+Recap:
+Cloud Computing
+
+low cost
+flexibility
+pay as per use basis
+exploring and experimenting
+
+Cloud Service providers
+
+1. AWS  - market share and usage
+2. Microsoft Azure
+3. Google Cloud
+4. Alibaba
+5. Heroku - Sales force - CRM
+6. Intel
+
+cloud models
+
+1. Deployment model- Public,private,hybrid
+2. Service model - IAAS, PAAS,SAAS
+S3 - Simple Storage Service
+EC2 - Elastic Cloud Computer
+SAAS  - gmail,google drive,meeting software,CRM software
+ZOHO
+postman
+fear of failure
+
+3. html,css
+
+4. Web server
+
+http - hyper text transfer protocol
+https -  hyper text transfer protocol secure
+
+5. XAMPP  - apache,tomcat,mysql,filezilla
+
+xampp->htdocs->website
+
+6. S3 - programfiles,image,video ,audio
+
+7. EC2 - create server,scale,
+load balancing
+
+8. Cloud Databases - Dynamo DB - RDBMS
+MySQL
+
+
+RDBMS - Oracle,mysql,mssql,postgres
+NoSQL - Mongo DB,couchdb,graphdb
+dynamodb - no sql database
+{
+	"code":1,
+	"name":"Ranga",
+	"dept":"IT"
+}
+
+SNS - Simple Notification Service - SMS,email
+
+Users , roles, 
+policies, IAM - Identity Management
+
+path : On line exams - certififed - AWS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
