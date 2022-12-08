@@ -64,6 +64,90 @@ path : On line exams - certififed - AWS
 
 git commands
 
+SQL Commands:
+
+Joining two tables
+
+product,customer
+1. write a query to join  products,suppliers
+table. Display following fields
+
+product name,supplier name
+
+suppliers table -SupplierID,SupplierName
+products table - SupplierID,ProductName
+
+select SupplierName,ProductName
+ from products,suppliers
+where products.supplierid = 
+suppliers.supplierid
+
+2. write a query to join  products,categories
+table. Display following fields
+productname,categoryname
+
+products - CategoryID,ProductName
+categories -CategoryID,CategoryName
+
+select CategoryName,ProductName
+ from products,categories
+where products.CategoryID = 
+categories.CategoryID
+
+aggregate functions - sum,min,max,
+
+3. display sum of price of all products
+select sum(price) as totalprice from products
+
+4. display maximum of price of a product
+select max(price) as maxprice from products
+
+5. display maximum of price of a product
+select min(price) as maxprice from products
+
+step 1:
+create cloud instance
+step 2 :
+connect to cloud using sql client
+MySQL workbench
+
+No-SQL
+1. www.mongodb.com
+
+aws - dynamodb
+
+
+
+raghu prasad - 9845547471
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
